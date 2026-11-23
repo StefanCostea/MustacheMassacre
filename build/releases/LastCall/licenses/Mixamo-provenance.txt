@@ -1,0 +1,9 @@
+The optional Don Espino Natural character uses motion downloaded from Adobe
+Mixamo (https://www.mixamo.com), retargeted and baked in Blender for this game.
+The character source was supplied by the project owner; its separate revolver
+reuses the existing project asset. Character-specific combat and moustache
+actions were authored on the retargeted pose.
+
+Source animation IDs and the distinction between Mixamo and authored actions
+are documented in desgin/character_models/refined/don_espino_natural_workflow/
+in the source project. Raw Mixamo FBX downloads are not included in the release.

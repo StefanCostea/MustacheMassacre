@@ -1,0 +1,13 @@
+{
+  "source": "Blender authored",
+  "bones": 13,
+  "frames": {
+    "idle": 48,
+    "move": 28,
+    "windup": 23,
+    "attack": 16,
+    "recover": 23,
+    "hurt": 9,
+    "death": 41
+  }
+}

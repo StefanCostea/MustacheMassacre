@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 1.72,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 0.998,
+  "review_triangles": 21960,
+  "textures": {
+    "skillet_outlaw_color": [
+      2048,
+      2048
+    ],
+    "skillet_outlaw_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "input": "desgin/renders/el_frigorifico/concepts/v01/character.png",
+  "prompt": "desgin/renders/el_frigorifico/concepts/v01/prompt.md",
+  "input_sha256": "e9c39854eb6a4a4622a9fd8ba73c74e5d4550cf3dc1ef5d582cc126584217616",
+  "request": {
+    "model": "microsoft:trellis-2@4b",
+    "taskType": "3dInference",
+    "taskUUID": "1e116e9d-9237-47ea-b0e4-575f0cadb24f",
+    "inputs": {
+      "image": "c035e66c-8c55-41ad-8d00-0e9149bd63cf"
+    },
+    "settings": {
+      "resolution": 1024,
+      "textureSize": 2048,
+      "remesh": true
+    },
+    "outputFormat": "GLB",
+    "outputType": "URL",
+    "numberResults": 1,
+    "includeCost": true
+  }
+}

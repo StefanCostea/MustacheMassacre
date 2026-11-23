@@ -1,0 +1,22 @@
+{
+  "input": "desgin/renders/pigeon_bomber/concepts/v01/character.png",
+  "prompt": "desgin/renders/pigeon_bomber/concepts/v01/prompt.md",
+  "input_sha256": "4cdf674523257769df8f06db889359b9c75d8039ad3d4c07299a3433bc4e198a",
+  "request": {
+    "model": "microsoft:trellis-2@4b",
+    "taskType": "3dInference",
+    "taskUUID": "fe10905c-0a55-413e-aa3c-ee4d32dc39fb",
+    "inputs": {
+      "image": "e0290ab7-dc89-4d6e-b0ae-712f12166931"
+    },
+    "settings": {
+      "resolution": 1024,
+      "textureSize": 2048,
+      "remesh": true
+    },
+    "outputFormat": "GLB",
+    "outputType": "URL",
+    "numberResults": 1,
+    "includeCost": true
+  }
+}

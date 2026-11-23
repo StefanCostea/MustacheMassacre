@@ -1,0 +1,22 @@
+{
+  "model": "DON_ESPINO_hero_v3.blend",
+  "blender": "4.5.3 LTS",
+  "base_mesh_vertices": 813792,
+  "base_mesh_polygons": 814025,
+  "curve_control_points": 291477,
+  "curve_splines": 72005,
+  "invalid_coordinates": 0,
+  "invalid_bone_bindings": [],
+  "weight_sum_errors": 0,
+  "bone_count": 25,
+  "felt_fibers": 70000,
+  "areole_clusters": 90,
+  "image_texture_nodes": 0,
+  "external_image_files": [],
+  "forearm_pose_test": {
+    "weapon_motion": 0.0963713180610467,
+    "hand_weapon_relative_error": 1.229345230058243e-07
+  },
+  "original_fbx_unchanged": true,
+  "scope": "High-resolution editable presentation model and articulated rig. No production LOD, engine baking, or full animation library is claimed."
+}

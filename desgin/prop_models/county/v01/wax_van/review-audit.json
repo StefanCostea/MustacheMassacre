@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 2.05,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 1.0006,
+  "review_triangles": 34998,
+  "textures": {
+    "wax_van_color": [
+      2048,
+      2048
+    ],
+    "wax_van_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "clips": [
+    {
+      "name": "run_backward",
+      "id": "128260901",
+      "file": "05_run_backward.fbx",
+      "fps": 30,
+      "skin": false,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_natural_rig_original\nanimation: Pistol Run Backward (id=128260901)\ndescription: Running Backward With An Aimed Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 17, 'mirror': False, 'inplace': True}"
+    },
+    {
+      "name": "strafe_left",
+      "id": "128290901",
+      "file": "06_strafe_left.fbx",
+      "fps": 30,
+      "skin": false,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_natural_rig_original\nanimation: Pistol Strafe (id=128290901)\ndescription: Strafe Right With An Aimed Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 19, 'mirror': False, 'inplace': True}"
+    },
+    {
+      "name": "strafe_right",
+      "id": "128280901",
+      "file": "07_strafe_right.fbx",
+      "fps": 30,
+      "skin": false,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_natural_rig_original\nanimation: Pistol Strafe (id=128280901)\ndescription: Strafe Left With An Aimed Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 18, 'mirror': False, 'inplace': True}"
+    }
+  ]
+}

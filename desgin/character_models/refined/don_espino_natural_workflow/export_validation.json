@@ -1,0 +1,40 @@
+{
+  "source_preserved": true,
+  "default_runtime_hero_preserved": true,
+  "triangles": 66374,
+  "export_vertices_with_seams": 74088,
+  "materials": 2,
+  "skin_joints": 64,
+  "moustache_bones_animated": 6,
+  "runtime_contract_clips": 12,
+  "all_clips": {
+    "idle": 1.3333333730697632,
+    "walk": 0.800000011920929,
+    "run_forward": 0.5,
+    "shoot_source": 2.6666667461395264,
+    "run_backward": 0.5333333611488342,
+    "strafe_left": 0.6000000238418579,
+    "strafe_right": 0.5666666626930237,
+    "shoot": 0.23333333432674408,
+    "reload": 1.2000000476837158,
+    "dash": 0.23333333432674408,
+    "hurt": 0.30000001192092896,
+    "death": 0.8666666746139526,
+    "cast": 0.5333333611488342,
+    "ultimate": 1.100000023841858,
+    "stache_frenzy": 2.0
+  },
+  "loop_seam_max_component_error": {
+    "idle": 5.4336425863598796e-05,
+    "walk": 4.790944742750967e-05,
+    "run_forward": 4.934005566634073e-05,
+    "run_backward": 5.362850929437421e-05,
+    "strafe_left": 3.3389276476745715e-05,
+    "strafe_right": 4.638908542293823e-05
+  },
+  "max_weight_normalization_error": 1.387670636177063e-07,
+  "rigid_revolver_attachment": "weapon.R",
+  "embedded_images": 5,
+  "retarget_max_position_error_m": 2.1813223895284832e-05,
+  "validation": "passed"
+}

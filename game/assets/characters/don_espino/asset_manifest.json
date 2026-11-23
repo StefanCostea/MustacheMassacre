@@ -1,0 +1,76 @@
+{
+  "source": "desgin/character_models/DON_ESPINO_hero_v3.blend",
+  "triangles": {
+    "organic": 8480,
+    "face_hat": 8990,
+    "clothing": 8660,
+    "props": 8458
+  },
+  "total_triangles": 34588,
+  "material_surfaces": 4,
+  "bone_count": 25,
+  "animations": {
+    "idle": {
+      "seconds": 1.6,
+      "frames": 49,
+      "loop": true
+    },
+    "run_forward": {
+      "seconds": 0.64,
+      "frames": 20,
+      "loop": true
+    },
+    "run_backward": {
+      "seconds": 0.64,
+      "frames": 20,
+      "loop": true
+    },
+    "strafe_left": {
+      "seconds": 0.64,
+      "frames": 20,
+      "loop": true
+    },
+    "strafe_right": {
+      "seconds": 0.64,
+      "frames": 20,
+      "loop": true
+    },
+    "shoot": {
+      "seconds": 0.2,
+      "frames": 7,
+      "loop": false
+    },
+    "reload": {
+      "seconds": 1.2,
+      "frames": 37,
+      "loop": false
+    },
+    "dash": {
+      "seconds": 0.22,
+      "frames": 8,
+      "loop": false
+    },
+    "hurt": {
+      "seconds": 0.3,
+      "frames": 10,
+      "loop": false
+    },
+    "death": {
+      "seconds": 0.85,
+      "frames": 27,
+      "loop": false
+    },
+    "cast": {
+      "seconds": 0.55,
+      "frames": 17,
+      "loop": false
+    },
+    "ultimate": {
+      "seconds": 1.1,
+      "frames": 34,
+      "loop": false
+    }
+  },
+  "textures": "four baked atlases; 2048px organic/face_hat/clothing, 1024px props",
+  "source_preserved": true
+}

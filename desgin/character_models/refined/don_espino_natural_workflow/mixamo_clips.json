@@ -1,0 +1,38 @@
+{
+  "clips": [
+    {
+      "name": "idle",
+      "id": "128210901",
+      "file": "01_idle.fbx",
+      "fps": 30,
+      "skin": false,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_natural_rig_original\nanimation: Pistol Idle (id=128210901)\ndescription: Idle With Aimed Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 81, 'mirror': False, 'inplace': False}"
+    },
+    {
+      "name": "walk",
+      "id": "128250901",
+      "file": "02_walk.fbx",
+      "inplace": true,
+      "fps": 30,
+      "skin": false,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_natural_rig_original\nanimation: Pistol Walk (id=128250901)\ndescription: Walking With An Aimed Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 25, 'mirror': False, 'inplace': True}"
+    },
+    {
+      "name": "run_forward",
+      "id": "128230901",
+      "file": "03_run_forward.fbx",
+      "inplace": true,
+      "fps": 30,
+      "skin": false,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_natural_rig_original\nanimation: Pistol Run (id=128230901)\ndescription: Running With A Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'mirror': False, 'inplace': True}"
+    },
+    {
+      "name": "shoot_source",
+      "id": "115050901",
+      "file": "04_shoot_source.fbx",
+      "fps": 30,
+      "skin": false,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_natural_rig_original\nanimation: Shooting Pistol (id=115050901)\ndescription: Shooting A Pistol From Behind Cover\nparams: {'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 16, 'mirror': False, 'inplace': False}"
+    }
+  ]
+}

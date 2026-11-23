@@ -1,0 +1,22 @@
+{
+  "source_preserved": true,
+  "active_game_hero_unchanged": true,
+  "triangles": 59939,
+  "vertices_with_uv_splits": 75633,
+  "skin_joints": 28,
+  "moustache_bones_animated": 6,
+  "clips": {
+    "walk": 0.8333333134651184,
+    "idle": 1.3666666746139526,
+    "run_forward": 0.5333333611488342,
+    "shoot": 2.700000047683716,
+    "stache_frenzy": 2.0333333015441895
+  },
+  "max_weight_normalization_error": 1.327134668827057e-07,
+  "sockets": [
+    "Muzzle",
+    "GunOrigin"
+  ],
+  "structural_validation": "passed",
+  "visual_quality": "NOT APPROVED: source pose/prop and limb deformation still require reconstruction"
+}

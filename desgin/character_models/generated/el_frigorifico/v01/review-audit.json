@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 2.6,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 0.9935,
+  "review_triangles": 27899,
+  "textures": {
+    "el_frigorifico_color": [
+      2048,
+      2048
+    ],
+    "el_frigorifico_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

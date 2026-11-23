@@ -1,0 +1,85 @@
+{
+  "images": [
+    {
+      "file": "01_actual_blender_hero.png",
+      "dimensions": [
+        1500,
+        2000
+      ],
+      "bytes": 3635562,
+      "sha256": "15b4489f1b61cd3aad3e59937e18a66b7af74f78a46a659f0a0b5441c93ddabc"
+    },
+    {
+      "file": "02_actual_face_and_hat.png",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "bytes": 4424748,
+      "sha256": "ebc36520bf20b5d937914c0f0e406e79c7499cace14ab5f71cd3d2ecdb4fc26c"
+    },
+    {
+      "file": "03_actual_clothing_and_boots.png",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "bytes": 4065569,
+      "sha256": "b88e4089e6dc496a7700a20cd9b6911e83835d339344640b3e1d19da6bd025c2"
+    },
+    {
+      "file": "04_actual_hand_and_revolver.png",
+      "dimensions": [
+        1800,
+        1400
+      ],
+      "bytes": 2944183,
+      "sha256": "869b11258a08f4e1d98c058b2cb022b06ce7275703c5c541f9ca97e726fc6116"
+    },
+    {
+      "file": "05_actual_rear.png",
+      "dimensions": [
+        1500,
+        2000
+      ],
+      "bytes": 3611059,
+      "sha256": "28ef61d2c57fb18752b1c6abfb3035c92a34b0d1834ffe4a887cd79ab390e4da"
+    },
+    {
+      "file": "06_actual_ricochet_rodeo.png",
+      "dimensions": [
+        2000,
+        1550
+      ],
+      "bytes": 3885377,
+      "sha256": "d95a2989cbb903ef14b164d89dcddf438911753cc0099b8717f70841ee4b26f0"
+    },
+    {
+      "file": "07_actual_high_noon_frenzy.png",
+      "dimensions": [
+        2000,
+        1550
+      ],
+      "bytes": 4037317,
+      "sha256": "76092bddb23205b2cb8cbedb03375374b02d17bad88ccb044ba2fd898c49d9f1"
+    }
+  ],
+  "missing_gallery_links": [],
+  "models": [
+    {
+      "file": "desgin/character_models/DON_ESPINO_hero_v3.blend",
+      "bytes": 35159700,
+      "sha256": "565562f1ded9886c34940b1ca187c78158363a76f70d83197db43ecf1ea6691e"
+    },
+    {
+      "file": "desgin/character_models/scenes/DON_ESPINO_ricochet_v3.blend",
+      "bytes": 35252117,
+      "sha256": "e834ac5184cc0b2d573dcadeb9779adee500756a7a1464cf32b44921b535c41d"
+    },
+    {
+      "file": "desgin/character_models/scenes/DON_ESPINO_high_noon_v3.blend",
+      "bytes": 35634238,
+      "sha256": "0243608445ae2d98b61bd1ed0fe1179d8212b80ff7b29a2604bef9e224502705"
+    }
+  ]
+}

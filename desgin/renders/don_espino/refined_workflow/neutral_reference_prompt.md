@@ -1,0 +1,12 @@
+# Neutral-pose generation reference
+
+Generated with the built-in imagegen tool on 12 November 2026. This is generated
+concept art, not a render of the supplied GLB. Saved image:
+`07_neutral_pose_generation_reference.png`.
+
+Input images: `../concepts/01_character_hero.png` (established hero concept) and
+`02_clean_three_quarter.png` (actual refined model identity/proportion reference).
+
+## Final prompt
+
+Use case: stylized-concept. Asset type: high-quality image-to-3D character generation reference for TRELLIS.2 / Leonardo.Ai, neutral rigging pose. Input image 1 is the established Don Espino hero concept and material/detail/style reference. Input image 2 is an actual refined model render and identity/proportion reference. Generate a new polished full-body studio render of the SAME Don Espino cactus cowboy, viewed exactly straight from the front with no camera roll, extremely subtle perspective or orthographic. Match the tall thin ribbed green cactus body, enormous dark chestnut handlebar moustache with carved hair fibers and downturned tips, thick expressive eyebrows, small dark eyes, oversized asymmetrical brown felt cowboy hat with black stitched hatband and gold star, ochre orange woven shorts, tooled brown leather belt and brass buckle, small brown cowboy boots, tiny cactus spines and areoles. Preserve the hero's stern face and exquisite textured cartoon materials. His body is in a neutral symmetric A-pose for automatic humanoid rigging: both arms straightened and spread diagonally about 45 degrees down from horizontal, elbows very slightly relaxed, wrists straight, both hands EMPTY and OPEN with separated visible fingers, palms facing forward. Both legs straight with knees relaxed, feet flat and hip-width apart, clear gap between legs. Entire hat, both hands and boots visible, centered, generous margins. No revolver in hand, no hand resting on hip, no hand touching belt, no radio held or attached across an arm. Belt with buckle only; remove loose gear, cigarette and holster for this rigging-body reference. Arms and hands clearly separated from body all the way to armpits. Calm light warm gray studio background, soft neutral professional key/fill/rim illumination, beautiful clean contact shadow, detailed physically based 3D cartoon render at the level of the original hero concept. This is one single character front view, no turnarounds, no extra props, no text, no labels, no watermark. Maintain the existing cactus gunslinger identity; change only the neutral pose and removal of held/loose gear needed for rigging.

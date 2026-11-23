@@ -1,0 +1,17 @@
+{
+  "model": "microsoft:trellis-2@4b",
+  "taskType": "3dInference",
+  "taskUUID": "92d98b52-b761-4450-a7c4-d65c1acfc510",
+  "inputs": {
+    "image": "c74f96ac-20e2-4b16-8d61-ae9903646379"
+  },
+  "settings": {
+    "resolution": 1024,
+    "textureSize": 2048,
+    "remesh": true
+  },
+  "outputFormat": "GLB",
+  "outputType": "URL",
+  "numberResults": 1,
+  "includeCost": true
+}

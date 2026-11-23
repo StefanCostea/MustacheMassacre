@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 1.58,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 0.9983,
+  "review_triangles": 57933,
+  "textures": {
+    "fridge_bruiser_color": [
+      2048,
+      2048
+    ],
+    "fridge_bruiser_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

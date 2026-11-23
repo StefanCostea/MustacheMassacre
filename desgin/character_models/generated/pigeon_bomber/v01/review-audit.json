@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 1.35,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 1.0011,
+  "review_triangles": 17997,
+  "textures": {
+    "pigeon_bomber_color": [
+      2048,
+      2048
+    ],
+    "pigeon_bomber_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

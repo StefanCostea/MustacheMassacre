@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="WaveSpec" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/wave_spec.gd" id="1"]
+[resource]
+script = ExtResource("1")
+count = 48
+group_size = 4
+group_interval = 9.0
+pattern = PackedStringArray("fridge", "chili", "fridge", "skillet", "chili", "fridge")
+title = "THEY HEARD THE BELL"

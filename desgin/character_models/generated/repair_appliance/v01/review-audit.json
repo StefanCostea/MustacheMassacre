@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 1.52,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 0.9911,
+  "review_triangles": 21958,
+  "textures": {
+    "repair_appliance_color": [
+      2048,
+      2048
+    ],
+    "repair_appliance_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

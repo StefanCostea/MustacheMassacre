@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Mustache Massacre — Last Call
+Comment=Play the Crispy Badlands with Don Espino
+Exec=play-natural.sh
+Icon=lastcall
+Categories=Game;ActionGame;
+Terminal=false

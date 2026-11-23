@@ -1,0 +1,1468 @@
+{
+  "objects": [
+    {
+      "name": "Cube.019",
+      "type": "MESH",
+      "vertices": 57177,
+      "faces": 103706,
+      "dimensions": [
+        1.0961036682128906,
+        0.17332106828689575,
+        0.5722920298576355
+      ],
+      "location": [
+        -3.507068395614624,
+        0.5857493877410889,
+        2.4539501667022705
+      ],
+      "materials": [
+        "Material.004",
+        "pistola",
+        "Material.008",
+        "Material.010",
+        "Material",
+        "casquillo",
+        "Parte psitola"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": []
+    },
+    {
+      "name": "metarig",
+      "type": "ARMATURE",
+      "vertices": null,
+      "faces": null,
+      "dimensions": [
+        5.041017532348633,
+        0.9986199736595154,
+        6.275150775909424
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [],
+      "uv_layers": [],
+      "vertex_groups": []
+    },
+    {
+      "name": "Cube.004",
+      "type": "MESH",
+      "vertices": 642,
+      "faces": 640,
+      "dimensions": [
+        0.9017412662506104,
+        0.48895543813705444,
+        0.51801598072052
+      ],
+      "location": [
+        0.345509797334671,
+        -0.7026053667068481,
+        3.247192859649658
+      ],
+      "materials": [
+        "Material.006"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "hombro.L",
+        "hombro.R",
+        "biceps.R",
+        "antebrazo.R",
+        "DEF-spine.003",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-biceps.L",
+        "DEF-hombro.R",
+        "DEF-biceps.R",
+        "DEF-biceps.R.001"
+      ]
+    },
+    {
+      "name": "Cube.006",
+      "type": "MESH",
+      "vertices": 386,
+      "faces": 384,
+      "dimensions": [
+        0.09802273660898209,
+        0.09104785323143005,
+        0.16348771750926971
+      ],
+      "location": [
+        0.12210764735937119,
+        -0.677698016166687,
+        3.5222177505493164
+      ],
+      "materials": [
+        "Material.004",
+        "Material.005"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "biceps.R",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-biceps.R"
+      ]
+    },
+    {
+      "name": "Cube.009",
+      "type": "MESH",
+      "vertices": 2946,
+      "faces": 2944,
+      "dimensions": [
+        0.16914337873458862,
+        0.2566555440425873,
+        0.8431580662727356
+      ],
+      "location": [
+        0.3724763095378876,
+        0.009057474322617054,
+        0.796782910823822
+      ],
+      "materials": [
+        "PIEL"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "pelvis.L",
+        "pelvis.R",
+        "muslo.L",
+        "tibia.L",
+        "tobillo.L",
+        "pie.L",
+        "anchurapie.L",
+        "muslo.R",
+        "tibia.R",
+        "tobillo.R",
+        "pie.R",
+        "anchurapie.R",
+        "DEF-pelvis.L",
+        "DEF-pelvis.R",
+        "DEF-muslo.L.001",
+        "DEF-tibia.L",
+        "DEF-muslo.R",
+        "DEF-muslo.R.001",
+        "DEF-tibia.R",
+        "DEF-tibia.R.001",
+        "DEF-tobillo.R",
+        "DEF-pie.R"
+      ]
+    },
+    {
+      "name": "Cube.012",
+      "type": "MESH",
+      "vertices": 2690,
+      "faces": 2688,
+      "dimensions": [
+        0.3313511610031128,
+        0.9451494216918945,
+        0.6343718767166138
+      ],
+      "location": [
+        -0.3579867482185364,
+        0.016273610293865204,
+        0.0739351212978363
+      ],
+      "materials": [
+        "BOTAS"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "pie.L",
+        "anchurapie.L",
+        "muslo.R",
+        "tibia.R",
+        "tobillo.R",
+        "pie.R",
+        "anchurapie.R",
+        "DEF-tibia.L.001",
+        "DEF-tobillo.L",
+        "DEF-pie.L",
+        "DEF-tibia.R",
+        "DEF-tibia.R.001",
+        "DEF-tobillo.R",
+        "DEF-pie.R"
+      ]
+    },
+    {
+      "name": "Cube.015",
+      "type": "MESH",
+      "vertices": 5704,
+      "faces": 5646,
+      "dimensions": [
+        0.1905277967453003,
+        0.5727232098579407,
+        2.2999355792999268
+      ],
+      "location": [
+        -1.2799328565597534,
+        -0.10176966339349747,
+        2.6760683059692383
+      ],
+      "materials": [
+        "PIEL"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.001",
+        "spine.002",
+        "spine.004",
+        "hombro.R",
+        "biceps.R",
+        "antebrazo.R",
+        "mano.R",
+        "DEF-spine.002",
+        "DEF-spine.003",
+        "DEF-hombro.R",
+        "DEF-biceps.R",
+        "DEF-biceps.R.001",
+        "DEF-antebrazo.R",
+        "DEF-antebrazo.R.001",
+        "DEF-mano.R"
+      ]
+    },
+    {
+      "name": "Cube.005",
+      "type": "MESH",
+      "vertices": 642,
+      "faces": 640,
+      "dimensions": [
+        0.9017415046691895,
+        0.48895540833473206,
+        0.5180157423019409
+      ],
+      "location": [
+        -0.2984082102775574,
+        -0.713336169719696,
+        3.248499631881714
+      ],
+      "materials": [
+        "Material.006"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "hombro.L",
+        "hombro.R",
+        "biceps.R",
+        "antebrazo.R",
+        "DEF-spine.003",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-biceps.L",
+        "DEF-hombro.R",
+        "DEF-biceps.R",
+        "DEF-biceps.R.001"
+      ]
+    },
+    {
+      "name": "Cube.007",
+      "type": "MESH",
+      "vertices": 386,
+      "faces": 384,
+      "dimensions": [
+        0.09802273660898209,
+        0.09104785323143005,
+        0.16348771750926971
+      ],
+      "location": [
+        -0.09308073669672012,
+        -0.677698016166687,
+        3.5222177505493164
+      ],
+      "materials": [
+        "Material.004",
+        "Material.005"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "biceps.R",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-biceps.R"
+      ]
+    },
+    {
+      "name": "Cube.010",
+      "type": "MESH",
+      "vertices": 2946,
+      "faces": 2944,
+      "dimensions": [
+        0.1691434681415558,
+        0.25726163387298584,
+        0.8588145971298218
+      ],
+      "location": [
+        -0.3471270799636841,
+        -0.029831115156412125,
+        0.780512273311615
+      ],
+      "materials": [
+        "PIEL"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "pelvis.L",
+        "pelvis.R",
+        "muslo.L",
+        "tibia.L",
+        "tobillo.L",
+        "pie.L",
+        "anchurapie.L",
+        "muslo.R",
+        "tibia.R",
+        "tobillo.R",
+        "pie.R",
+        "anchurapie.R",
+        "DEF-pelvis.L",
+        "DEF-pelvis.R",
+        "DEF-muslo.L.001",
+        "DEF-tibia.L",
+        "DEF-muslo.R",
+        "DEF-muslo.R.001",
+        "DEF-tibia.R",
+        "DEF-tibia.R.001",
+        "DEF-tobillo.R",
+        "DEF-pie.R"
+      ]
+    },
+    {
+      "name": "Cube.013",
+      "type": "MESH",
+      "vertices": 19,
+      "faces": 18,
+      "dimensions": [
+        0.20753931999206543,
+        0.09100676327943802,
+        0.31011512875556946
+      ],
+      "location": [
+        0.460294634103775,
+        -0.5792986750602722,
+        1.9207649230957031
+      ],
+      "materials": [
+        "MARLBORO",
+        "MARLBOROJO"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine",
+        "spine.001",
+        "biceps.L",
+        "antebrazo.L",
+        "pelvis.L",
+        "DEF-spine.001",
+        "DEF-pelvis.L",
+        "DEF-biceps.L",
+        "DEF-biceps.L.001"
+      ]
+    },
+    {
+      "name": "Cube",
+      "type": "MESH",
+      "vertices": 8161,
+      "faces": 2240,
+      "dimensions": [
+        1.4217835664749146,
+        1.4057368040084839,
+        3.0535802841186523
+      ],
+      "location": [
+        -0.007875578477978706,
+        -7.982749252732901e-07,
+        2.470684051513672
+      ],
+      "materials": [
+        "PIEL"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine",
+        "spine.001",
+        "spine.002",
+        "spine.003",
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "hombro.L",
+        "biceps.L",
+        "hombro.R",
+        "pelvis.L",
+        "pelvis.R",
+        "muslo.L",
+        "muslo.R",
+        "DEF-spine",
+        "DEF-spine.001",
+        "DEF-spine.002",
+        "DEF-spine.003",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-spine.006",
+        "DEF-pelvis.L",
+        "DEF-pelvis.R",
+        "DEF-muslo.L",
+        "DEF-muslo.R",
+        "DEF-hombro.L",
+        "DEF-biceps.L",
+        "DEF-hombro.R"
+      ]
+    },
+    {
+      "name": "Cube.002",
+      "type": "MESH",
+      "vertices": 642,
+      "faces": 640,
+      "dimensions": [
+        0.5677763223648071,
+        0.3366006910800934,
+        0.4491191506385803
+      ],
+      "location": [
+        0.3022928535938263,
+        -0.979742705821991,
+        3.643986225128174
+      ],
+      "materials": [
+        "Material.006"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "hombro.L",
+        "hombro.R",
+        "antebrazo.R",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-spine.006",
+        "DEF-hombro.R",
+        "DEF-biceps.R",
+        "DEF-biceps.R.001"
+      ]
+    },
+    {
+      "name": "Cube.008",
+      "type": "MESH",
+      "vertices": 681,
+      "faces": 578,
+      "dimensions": [
+        1.3854902982711792,
+        1.5155696868896484,
+        1.0395501852035522
+      ],
+      "location": [
+        -0.007875578477978706,
+        -7.982749252732901e-07,
+        2.470684051513672
+      ],
+      "materials": [
+        "PANTALON",
+        "EBILLA",
+        "CENIZA"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine",
+        "spine.001",
+        "spine.002",
+        "pelvis.L",
+        "pelvis.R",
+        "muslo.L",
+        "muslo.R",
+        "DEF-spine",
+        "DEF-spine.001",
+        "DEF-pelvis.L",
+        "DEF-pelvis.R",
+        "DEF-muslo.L",
+        "DEF-muslo.R"
+      ]
+    },
+    {
+      "name": "Circle",
+      "type": "MESH",
+      "vertices": 140,
+      "faces": 142,
+      "dimensions": [
+        0.3546547591686249,
+        0.33729788661003113,
+        0.07190700620412827
+      ],
+      "location": [
+        0.41074562072753906,
+        -0.3050083518028259,
+        4.291769027709961
+      ],
+      "materials": [
+        "Material.003"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.005",
+        "spine.006",
+        "DEF-spine.005",
+        "DEF-spine.006"
+      ]
+    },
+    {
+      "name": "Cube.014",
+      "type": "MESH",
+      "vertices": 5704,
+      "faces": 5646,
+      "dimensions": [
+        0.19052845239639282,
+        0.5727231502532959,
+        2.299936056137085
+      ],
+      "location": [
+        1.2799328565597534,
+        -0.10176966339349747,
+        2.6760683059692383
+      ],
+      "materials": [
+        "PIEL"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "hombro.L",
+        "biceps.L",
+        "antebrazo.L",
+        "mano.L",
+        "DEF-hombro.L",
+        "DEF-biceps.L",
+        "DEF-biceps.L.001",
+        "DEF-antebrazo.L",
+        "DEF-antebrazo.L.001",
+        "DEF-mano.L"
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "type": "MESH",
+      "vertices": 1828,
+      "faces": 1809,
+      "dimensions": [
+        2.103297710418701,
+        1.8525803089141846,
+        1.6053738594055176
+      ],
+      "location": [
+        0.027403052896261215,
+        -0.0001446208480047062,
+        4.4070916175842285
+      ],
+      "materials": [
+        "Material.001",
+        "CINTASOBRERO"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "DEF-spine.005",
+        "DEF-spine.006"
+      ]
+    },
+    {
+      "name": "Cube.003",
+      "type": "MESH",
+      "vertices": 642,
+      "faces": 640,
+      "dimensions": [
+        0.5677764415740967,
+        0.33660072088241577,
+        0.44911909103393555
+      ],
+      "location": [
+        -0.27864858508110046,
+        -0.9805530309677124,
+        3.6180782318115234
+      ],
+      "materials": [
+        "Material.006"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "spine.006",
+        "hombro.L",
+        "hombro.R",
+        "antebrazo.R",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-spine.006",
+        "DEF-hombro.R",
+        "DEF-biceps.R",
+        "DEF-biceps.R.001"
+      ]
+    },
+    {
+      "name": "Cylinder",
+      "type": "MESH",
+      "vertices": 320,
+      "faces": 73,
+      "dimensions": [
+        0.05074801295995712,
+        0.05313447117805481,
+        0.3318358063697815
+      ],
+      "location": [
+        0.14016924798488617,
+        -0.7330378890037537,
+        3.077070951461792
+      ],
+      "materials": [
+        "CENIZA",
+        "CIGARRO",
+        "BOQUILLA",
+        "FUEGO"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine.004",
+        "spine.005",
+        "hombro.L",
+        "biceps.L",
+        "hombro.R",
+        "biceps.R",
+        "DEF-spine.003",
+        "DEF-spine.004",
+        "DEF-spine.005",
+        "DEF-hombro.L",
+        "DEF-biceps.L",
+        "DEF-hombro.R",
+        "DEF-biceps.R"
+      ]
+    },
+    {
+      "name": "Cube.011",
+      "type": "MESH",
+      "vertices": 2690,
+      "faces": 2688,
+      "dimensions": [
+        0.33135125041007996,
+        0.9451492428779602,
+        0.6343719363212585
+      ],
+      "location": [
+        0.3930172324180603,
+        0.058345869183540344,
+        0.06986436992883682
+      ],
+      "materials": [
+        "BOTAS"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "pie.L",
+        "anchurapie.L",
+        "muslo.R",
+        "tibia.R",
+        "tobillo.R",
+        "pie.R",
+        "anchurapie.R",
+        "DEF-tibia.L.001",
+        "DEF-tobillo.L",
+        "DEF-pie.L",
+        "DEF-tibia.R",
+        "DEF-tibia.R.001",
+        "DEF-tobillo.R",
+        "DEF-pie.R"
+      ]
+    },
+    {
+      "name": "Cube.016",
+      "type": "MESH",
+      "vertices": 4722,
+      "faces": 4704,
+      "dimensions": [
+        0.23162105679512024,
+        0.1483987718820572,
+        0.7226675748825073
+      ],
+      "location": [
+        0.699298083782196,
+        -0.09626521170139313,
+        1.959096074104309
+      ],
+      "materials": [
+        "WALKIE",
+        "BOTONESWALKIE",
+        "BOTONESAMARRR",
+        "BOTONESAZULL"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "spine",
+        "spine.001",
+        "spine.002",
+        "hombro.L",
+        "biceps.L",
+        "antebrazo.L",
+        "pelvis.L",
+        "DEF-spine",
+        "DEF-spine.001",
+        "DEF-spine.002",
+        "DEF-pelvis.L",
+        "DEF-hombro.L",
+        "DEF-biceps.L",
+        "DEF-biceps.L.001",
+        "DEF-antebrazo.L"
+      ]
+    },
+    {
+      "name": "rig",
+      "type": "ARMATURE",
+      "vertices": null,
+      "faces": null,
+      "dimensions": [
+        5.395547389984131,
+        5.8522138595581055,
+        6.992746353149414
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [],
+      "uv_layers": [],
+      "vertex_groups": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "BOQUILLA",
+      "diffuse": [
+        1.0,
+        0.20380744338035583,
+        0.01051093265414238,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "BOTAS",
+      "diffuse": [
+        0.2929472327232361,
+        0.19009852409362793,
+        0.03643719106912613,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "BOTONESAMARRR",
+      "diffuse": [
+        0.8000000715255737,
+        0.7085726261138916,
+        0.002415755996480584,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "BOTONESAZULL",
+      "diffuse": [
+        0.8000000715255737,
+        0.10274285823106766,
+        0.0,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "BOTONESWALKIE",
+      "diffuse": [
+        0.8000000715255737,
+        0.02120222896337509,
+        0.01253114640712738,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "casquillo",
+      "diffuse": [
+        0.38316673040390015,
+        0.38316673040390015,
+        0.38316673040390015,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "CENIZA",
+      "diffuse": [
+        0.19243282079696655,
+        0.19243282079696655,
+        0.19243282079696655,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "CIGARRO",
+      "diffuse": [
+        0.7678914666175842,
+        0.8000000715255737,
+        0.4928732216358185,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "CINTASOBRERO",
+      "diffuse": [
+        0.02208300679922104,
+        0.006316271610558033,
+        0.00397020997479558,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "EBILLA",
+      "diffuse": [
+        0.8000000715255737,
+        0.6273002624511719,
+        0.008424733765423298,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "FUEGO",
+      "diffuse": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "MARLBORO",
+      "diffuse": [
+        0.6487921476364136,
+        0.8000000715255737,
+        0.590781569480896,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "MARLBOROJO",
+      "diffuse": [
+        1.0,
+        0.046578072011470795,
+        0.037450969219207764,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material",
+      "diffuse": [
+        0.03243416175246239,
+        0.006948575843125582,
+        0.00786871649324894,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.001",
+      "diffuse": [
+        0.09592285007238388,
+        0.024087317287921906,
+        0.005133579019457102,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.003",
+      "diffuse": [
+        0.8000000715255737,
+        0.5827487707138062,
+        0.11821406334638596,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.004",
+      "diffuse": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.005",
+      "diffuse": [
+        0.8000000715255737,
+        0.7680047154426575,
+        0.5853601098060608,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.006",
+      "diffuse": [
+        0.11896857619285583,
+        0.04749877378344536,
+        0.008929872885346413,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.008",
+      "diffuse": [
+        0.12987904250621796,
+        0.05898284912109375,
+        0.04810592532157898,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.010",
+      "diffuse": [
+        0.24762634932994843,
+        0.2091415673494339,
+        0.14796385169029236,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "PANTALON",
+      "diffuse": [
+        0.4878003001213074,
+        0.15535147488117218,
+        0.04241134598851204,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Parte psitola",
+      "diffuse": [
+        0.2697303891181946,
+        0.1057235449552536,
+        0.0972151830792427,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "PIEL",
+      "diffuse": [
+        0.17172686755657196,
+        0.5633066892623901,
+        0.16230741143226624,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "pistola",
+      "diffuse": [
+        0.7737110257148743,
+        0.7737110257148743,
+        0.7737110257148743,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "WALKIE",
+      "diffuse": [
+        0.21651582419872284,
+        0.21651582419872284,
+        0.21651582419872284,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "images": []
+}

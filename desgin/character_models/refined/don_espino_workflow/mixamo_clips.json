@@ -1,0 +1,39 @@
+{
+  "clips": [
+    {
+      "name": "walk",
+      "id": "128250901",
+      "fps": 30,
+      "skin": true,
+      "inplace": false,
+      "file": "raw_mixamo/02_walk_with_skin.fbx"
+    },
+    {
+      "name": "idle",
+      "id": "128210901",
+      "file": "01_idle.fbx",
+      "selected": true,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_rig_original_pose\nanimation: Pistol Idle (id=128210901)\ndescription: Idle With Aimed Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 41, 'mirror': False, 'inplace': False}",
+      "fps": 30,
+      "skin": false
+    },
+    {
+      "name": "run_forward",
+      "id": "128230901",
+      "file": "03_run_forward.fbx",
+      "inplace": true,
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_rig_original_pose\nanimation: Pistol Run (id=128230901)\ndescription: Running With A Pistol\nparams: {'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 16, 'mirror': False, 'inplace': True}",
+      "fps": 30,
+      "skin": false
+    },
+    {
+      "name": "shoot",
+      "id": "115050901",
+      "file": "04_shoot.fbx",
+      "state": "url: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&query=pistol\nlogged_in: True\nscreen: animations\ncharacter: 00_rig_original_pose\nanimation: Shooting Pistol (id=115050901)\ndescription: Shooting A Pistol From Behind Cover\nparams: {'Fire Rate': 100, 'Stance': 100, 'Overdrive': 50, 'arm-space': 50, 'trim_start': 0, 'trim_end': 100, 'total_frames': 16, 'mirror': False, 'inplace': False}",
+      "fps": 30,
+      "skin": false
+    }
+  ],
+  "notes": "Walk root translation will be removed in Blender; other source downloads preserved unchanged. Mixamo markers required browser fallback; animation downloads completed through Mixamo MCP after waiting for UI readiness."
+}

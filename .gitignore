@@ -1,0 +1,13 @@
+game/.godot/
+/build/*
+!/build/releases/
+/build/releases/*
+!/build/releases/LastCall/
+/build/releases/LastCall/*
+!/build/releases/LastCall/*.sh
+!/build/releases/LastCall/README.md
+!/build/releases/LastCall/licenses/
+__pycache__/
+*.pyc
+*.blend[0-9]*
+*.log

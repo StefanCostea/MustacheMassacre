@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="WaveSpec" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/wave_spec.gd" id="1"]
+[resource]
+script = ExtResource("1")
+count = 80
+group_size = 5
+group_interval = 10.3
+pattern = PackedStringArray("fridge", "chili", "repair", "fridge", "pigeon", "skillet", "chili", "fridge")
+title = "BAD COMPANY"

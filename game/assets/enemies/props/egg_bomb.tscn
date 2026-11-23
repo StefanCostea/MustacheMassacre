@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Shader" path="res://assets/enemies/props/egg_bomb.gdshader" id="shader"]
+
+[sub_resource type="ShaderMaterial" id="shell"]
+shader = ExtResource("shader")
+
+[sub_resource type="SphereMesh" id="egg"]
+material = SubResource("shell")
+radius = 0.205
+height = 0.53
+radial_segments = 32
+rings = 16
+
+[sub_resource type="StandardMaterial3D" id="brass"]
+albedo_color = Color(0.62, 0.36, 0.12, 1)
+metallic = 0.58
+roughness = 0.4
+
+[sub_resource type="CylinderMesh" id="cap"]
+material = SubResource("brass")
+top_radius = 0.040
+bottom_radius = 0.070
+height = 0.05
+radial_segments = 10
+rings = 1
+
+[node name="EggBomb" type="MeshInstance3D"]
+mesh = SubResource("egg")
+
+[node name="BrassCrown" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.248, 0)
+mesh = SubResource("cap")

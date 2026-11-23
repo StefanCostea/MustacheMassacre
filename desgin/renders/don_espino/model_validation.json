@@ -1,0 +1,55 @@
+{
+  "blender": "4.5.3 LTS",
+  "mesh_objects": 253,
+  "curve_detail_objects": 110,
+  "spines": 171,
+  "image_dependencies": 0,
+  "nonfinite_vertices": 0,
+  "overlap_pairs": {
+    "Cube.004 / Cube.005": {
+      "centroid_separation": 0.542750115595386,
+      "mirrored_x_error": 8.940696716308594e-08
+    },
+    "Cube.002 / Cube.003": {
+      "centroid_separation": 0.39060064239854425,
+      "mirrored_x_error": 5.960464477539063e-08
+    },
+    "Cube.006 / Cube.007": {
+      "centroid_separation": 0.18673189109001953,
+      "mirrored_x_error": 4.470348358154297e-08
+    }
+  },
+  "material_nodes": {
+    "BOQUILLA": 3,
+    "BOTAS": 6,
+    "BOTONESAMARRR": 3,
+    "BOTONESAZULL": 3,
+    "BOTONESWALKIE": 3,
+    "casquillo": 6,
+    "CENIZA": 3,
+    "CIGARRO": 3,
+    "CINTASOBRERO": 6,
+    "EBILLA": 6,
+    "FUEGO": 3,
+    "MARLBORO": 3,
+    "MARLBOROJO": 3,
+    "Material": 3,
+    "Material.001": 6,
+    "Material.003": 6,
+    "Material.004": 3,
+    "Material.005": 3,
+    "Material.006": 7,
+    "Material.008": 7,
+    "Material.010": 3,
+    "PANTALON": 6,
+    "Parte psitola": 3,
+    "PIEL": 6,
+    "pistola": 6,
+    "V2 cactus areoles": 2,
+    "V2 saddle stitching": 2,
+    "V2 warm cactus spines": 2,
+    "WALKIE": 6
+  },
+  "rig_validation": "not animation-validated; source binding limitations documented",
+  "removed_off_band_stitches": 26
+}

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/refined_character_review.gd" id="1"]
+
+[node name="NaturalCharacterReview" type="Node3D"]
+script = ExtResource("1")
+asset_path = "res://assets/characters/don_espino_natural_review/don_espino_natural.glb"
+review_title = "DON ESPINO · NEUTRAL MODEL ANIMATION REVIEW"
+review_note = "Compare body deformation, finger grip, revolver and moustache motion."
+capture_folder = "res://../desgin/renders/don_espino/natural_workflow/"

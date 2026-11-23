@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 8.5,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 0.997,
+  "review_triangles": 34986,
+  "textures": {
+    "grand_palace_color": [
+      2048,
+      2048
+    ],
+    "grand_palace_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

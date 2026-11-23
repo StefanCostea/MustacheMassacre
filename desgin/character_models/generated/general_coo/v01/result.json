@@ -1,0 +1,16 @@
+{
+  "taskUUID": "d0c3715c-ba20-472f-8cdc-0040be3740bb",
+  "taskType": "3dInference",
+  "status": "success",
+  "cost": 0.0357,
+  "seed": 1661581663,
+  "outputs": {
+    "files": [
+      {
+        "uuid": "a6b64057-9189-45a4-b6a2-5bfb8e514dd2",
+        "url": "https://im.runware.ai/image/os/w02d10/ws/5/ii/a6b64057-9189-45a4-b6a2-5bfb8e514dd2.glb"
+      }
+    ]
+  },
+  "source_sha256": "9ef4f048916d53e11e1e92c51b2431916cb25f7f6a6e633f483020d55b0d95bf"
+}

@@ -1,0 +1,22 @@
+{
+  "input": "desgin/renders/chili_bandit/concepts/v01/character.png",
+  "prompt": "desgin/renders/chili_bandit/concepts/v01/prompt.md",
+  "input_sha256": "d13624eb19bf4a7c562b5ad988aee147a959cc113b1f49c6e041586a67935815",
+  "request": {
+    "model": "microsoft:trellis-2@4b",
+    "taskType": "3dInference",
+    "taskUUID": "4400cd9a-58c3-45bf-9a3d-160126219dfb",
+    "inputs": {
+      "image": "84064233-5691-4421-8df1-12d79834fa5b"
+    },
+    "settings": {
+      "resolution": 1024,
+      "textureSize": 2048,
+      "remesh": true
+    },
+    "outputFormat": "GLB",
+    "outputType": "URL",
+    "numberResults": 1,
+    "includeCost": true
+  }
+}

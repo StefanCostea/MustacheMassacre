@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 5.4,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 0.9674,
+  "review_triangles": 19418,
+  "textures": {
+    "grease_diner_color": [
+      2048,
+      2048
+    ],
+    "grease_diner_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

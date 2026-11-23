@@ -1,0 +1,16 @@
+{
+  "ricochet": {
+    "saved_scene": "DON_ESPINO_ricochet_v3.blend",
+    "barrel_first_shot_alignment": 0.9999999852152541,
+    "invalid_bone_bindings": [],
+    "saved_pose_action": "Pose | Ricochet Rodeo",
+    "scope": "static posed native Blender scene"
+  },
+  "high_noon": {
+    "saved_scene": "DON_ESPINO_high_noon_v3.blend",
+    "barrel_first_shot_alignment": 0.999999925494194,
+    "invalid_bone_bindings": [],
+    "saved_pose_action": "Pose | High Noon Frenzy",
+    "scope": "static posed native Blender scene"
+  }
+}

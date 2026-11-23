@@ -1,0 +1,22 @@
+{
+  "input": "desgin/renders/fridge_bruiser/concepts/v01/character.png",
+  "prompt": "desgin/renders/fridge_bruiser/concepts/v01/prompt.md",
+  "input_sha256": "1c8fc0adc43ecf7aa1800c6c5da8a992f88d741096dc4ff339d79b39b1ad273f",
+  "request": {
+    "model": "microsoft:trellis-2@4b",
+    "taskType": "3dInference",
+    "taskUUID": "61ce268b-e3af-4750-a5f9-0ec20144c49c",
+    "inputs": {
+      "image": "64773e98-f1ea-4852-a1ef-69e5ea56550a"
+    },
+    "settings": {
+      "resolution": 1024,
+      "textureSize": 2048,
+      "remesh": true
+    },
+    "outputFormat": "GLB",
+    "outputType": "URL",
+    "numberResults": 1,
+    "includeCost": true
+  }
+}

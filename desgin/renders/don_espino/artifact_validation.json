@@ -1,0 +1,122 @@
+{
+  "review_links_valid": true,
+  "source_hash_matches": true,
+  "concept_image_count": 5,
+  "direct_blender_image_count": 5,
+  "images": [
+    {
+      "path": "01_model_detail_three_quarter.png",
+      "dimensions": [
+        1600,
+        1600
+      ],
+      "bytes": 2649666
+    },
+    {
+      "path": "02_model_detail_front.png",
+      "dimensions": [
+        1600,
+        1600
+      ],
+      "bytes": 2641310
+    },
+    {
+      "path": "03_model_detail_closeup.png",
+      "dimensions": [
+        1600,
+        1600
+      ],
+      "bytes": 2799686
+    },
+    {
+      "path": "04_model_detail_rear.png",
+      "dimensions": [
+        1600,
+        1600
+      ],
+      "bytes": 2598581
+    },
+    {
+      "path": "05_original_revolver_detail.png",
+      "dimensions": [
+        1600,
+        1600
+      ],
+      "bytes": 2584135
+    },
+    {
+      "path": "concepts/01_character_hero.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 2024963
+    },
+    {
+      "path": "concepts/02_ricochet_rodeo.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2703351
+    },
+    {
+      "path": "concepts/03_prickly_situation.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2613109
+    },
+    {
+      "path": "concepts/04_tumbleweed_of_doom.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2507155
+    },
+    {
+      "path": "concepts/05_high_noon_frenzy.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2412405
+    },
+    {
+      "path": "reference/original_front.png",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "bytes": 1489334
+    },
+    {
+      "path": "reference/original_rear.png",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "bytes": 1454677
+    },
+    {
+      "path": "reference/original_side.png",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "bytes": 1452160
+    },
+    {
+      "path": "reference/original_three_quarter.png",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "bytes": 1497808
+    }
+  ],
+  "model_file": "../../character_models/DON_ESPINO_detail_v2.blend",
+  "model_bytes": 23615093
+}

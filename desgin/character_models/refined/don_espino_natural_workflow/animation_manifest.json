@@ -1,0 +1,155 @@
+{
+  "runtime_contract": [
+    "cast",
+    "dash",
+    "death",
+    "hurt",
+    "idle",
+    "reload",
+    "run_backward",
+    "run_forward",
+    "shoot",
+    "strafe_left",
+    "strafe_right",
+    "ultimate"
+  ],
+  "clips": {
+    "idle": {
+      "action": "Natural_baked_idle",
+      "frames": [
+        1.0,
+        41.0
+      ],
+      "seconds": 1.3333333333333333,
+      "origin": "Mixamo with world-space retarget and authored moustache follow-through"
+    },
+    "walk": {
+      "action": "Natural_baked_walk",
+      "frames": [
+        1.0,
+        25.0
+      ],
+      "seconds": 0.8,
+      "origin": "Mixamo with world-space retarget and authored moustache follow-through"
+    },
+    "run_forward": {
+      "action": "Natural_baked_run_forward",
+      "frames": [
+        1.0,
+        16.0
+      ],
+      "seconds": 0.5,
+      "origin": "Mixamo with world-space retarget and authored moustache follow-through"
+    },
+    "shoot_source": {
+      "action": "Natural_baked_shoot_source",
+      "frames": [
+        1.0,
+        81.0
+      ],
+      "seconds": 2.6666666666666665,
+      "origin": "Mixamo with world-space retarget and authored moustache follow-through"
+    },
+    "run_backward": {
+      "action": "Natural_baked_run_backward",
+      "frames": [
+        1.0,
+        17.0
+      ],
+      "seconds": 0.5333333333333333,
+      "origin": "Mixamo with world-space retarget and authored moustache follow-through"
+    },
+    "strafe_left": {
+      "action": "Natural_baked_strafe_left",
+      "frames": [
+        1.0,
+        19.0
+      ],
+      "seconds": 0.6,
+      "origin": "Mixamo with world-space retarget and authored moustache follow-through"
+    },
+    "strafe_right": {
+      "action": "Natural_baked_strafe_right",
+      "frames": [
+        1.0,
+        18.0
+      ],
+      "seconds": 0.5666666666666667,
+      "origin": "Mixamo with world-space retarget and authored moustache follow-through"
+    },
+    "shoot": {
+      "action": "Natural_authored_shoot.001",
+      "frames": [
+        1.0,
+        8.0
+      ],
+      "seconds": 0.23333333333333334,
+      "origin": "authored on retargeted Mixamo idle"
+    },
+    "reload": {
+      "action": "Natural_authored_reload.001",
+      "frames": [
+        1.0,
+        37.0
+      ],
+      "seconds": 1.2,
+      "origin": "authored on retargeted Mixamo idle"
+    },
+    "dash": {
+      "action": "Natural_authored_dash.001",
+      "frames": [
+        1.0,
+        8.0
+      ],
+      "seconds": 0.23333333333333334,
+      "origin": "authored on retargeted Mixamo idle"
+    },
+    "hurt": {
+      "action": "Natural_authored_hurt.001",
+      "frames": [
+        1.0,
+        10.0
+      ],
+      "seconds": 0.3,
+      "origin": "authored on retargeted Mixamo idle"
+    },
+    "death": {
+      "action": "Natural_authored_death.001",
+      "frames": [
+        1.0,
+        27.0
+      ],
+      "seconds": 0.8666666666666667,
+      "origin": "authored on retargeted Mixamo idle"
+    },
+    "cast": {
+      "action": "Natural_authored_cast.001",
+      "frames": [
+        1.0,
+        17.0
+      ],
+      "seconds": 0.5333333333333333,
+      "origin": "authored on retargeted Mixamo idle"
+    },
+    "ultimate": {
+      "action": "Natural_authored_ultimate.001",
+      "frames": [
+        1.0,
+        34.0
+      ],
+      "seconds": 1.1,
+      "origin": "authored on retargeted Mixamo idle"
+    },
+    "stache_frenzy": {
+      "action": "Natural_authored_stache_frenzy.001",
+      "frames": [
+        1.0,
+        61.0
+      ],
+      "seconds": 2.0,
+      "origin": "authored on retargeted Mixamo idle"
+    }
+  },
+  "bone_count": 64,
+  "weapon_attachment": "separate rigid revolver parented to weapon.R below RightHand; animated independently during recoil/reload"
+}

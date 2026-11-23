@@ -1,0 +1,100 @@
+{
+  "idle": {
+    "action": "Natural_baked_idle",
+    "source_file": "01_idle.fbx",
+    "frames": [
+      1,
+      41
+    ],
+    "fps": 30,
+    "rest_position_mismatch_m": 0.9402827586810675,
+    "rest_rotation_mismatch_deg": 119.1150649219925,
+    "baked_pose_max_position_error_m": 1.4761037536726013e-05,
+    "baked_pose_max_rotation_error_deg": 0.05595291023658669,
+    "retarget": "evaluated absolute pose converted into skinned local rest basis; horizontal root motion removed"
+  },
+  "walk": {
+    "action": "Natural_baked_walk",
+    "source_file": "02_walk.fbx",
+    "frames": [
+      1,
+      25
+    ],
+    "fps": 30,
+    "rest_position_mismatch_m": 0.9402827586810675,
+    "rest_rotation_mismatch_deg": 119.1150649219925,
+    "baked_pose_max_position_error_m": 1.8648040838852067e-05,
+    "baked_pose_max_rotation_error_deg": 0.05595291023658669,
+    "retarget": "evaluated absolute pose converted into skinned local rest basis; horizontal root motion removed"
+  },
+  "run_forward": {
+    "action": "Natural_baked_run_forward",
+    "source_file": "03_run_forward.fbx",
+    "frames": [
+      1,
+      16
+    ],
+    "fps": 30,
+    "rest_position_mismatch_m": 0.9402827586810675,
+    "rest_rotation_mismatch_deg": 119.1150649219925,
+    "baked_pose_max_position_error_m": 1.8256614786969996e-05,
+    "baked_pose_max_rotation_error_deg": 0.05595291023658669,
+    "retarget": "evaluated absolute pose converted into skinned local rest basis; horizontal root motion removed"
+  },
+  "shoot_source": {
+    "action": "Natural_baked_shoot_source",
+    "source_file": "04_shoot_source.fbx",
+    "frames": [
+      1,
+      81
+    ],
+    "fps": 30,
+    "rest_position_mismatch_m": 0.9402827586810675,
+    "rest_rotation_mismatch_deg": 119.1150649219925,
+    "baked_pose_max_position_error_m": 1.7442726677192585e-05,
+    "baked_pose_max_rotation_error_deg": 0.05595291023658669,
+    "retarget": "evaluated absolute pose converted into skinned local rest basis; horizontal root motion removed"
+  },
+  "run_backward": {
+    "action": "Natural_baked_run_backward",
+    "source_file": "05_run_backward.fbx",
+    "frames": [
+      1,
+      17
+    ],
+    "fps": 30,
+    "rest_position_mismatch_m": 0.9402827586810675,
+    "rest_rotation_mismatch_deg": 119.1150649219925,
+    "baked_pose_max_position_error_m": 1.7852202195182053e-05,
+    "baked_pose_max_rotation_error_deg": 0.05595291023658669,
+    "retarget": "evaluated absolute pose converted into skinned local rest basis; horizontal root motion removed"
+  },
+  "strafe_left": {
+    "action": "Natural_baked_strafe_left",
+    "source_file": "06_strafe_left.fbx",
+    "frames": [
+      1,
+      19
+    ],
+    "fps": 30,
+    "rest_position_mismatch_m": 0.9402827586810675,
+    "rest_rotation_mismatch_deg": 119.1150649219925,
+    "baked_pose_max_position_error_m": 2.1813223895284832e-05,
+    "baked_pose_max_rotation_error_deg": 0.05595291023658669,
+    "retarget": "evaluated absolute pose converted into skinned local rest basis; horizontal root motion removed"
+  },
+  "strafe_right": {
+    "action": "Natural_baked_strafe_right",
+    "source_file": "07_strafe_right.fbx",
+    "frames": [
+      1,
+      18
+    ],
+    "fps": 30,
+    "rest_position_mismatch_m": 0.9402827586810675,
+    "rest_rotation_mismatch_deg": 119.1150649219925,
+    "baked_pose_max_position_error_m": 2.0941897260449043e-05,
+    "baked_pose_max_rotation_error_deg": 0.05595291023658669,
+    "retarget": "evaluated absolute pose converted into skinned local rest basis; horizontal root motion removed"
+  }
+}

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/espino_motion_study.gd" id="1"]
+
+[node name="EspinoMotionStudy" type="Node3D"]
+script = ExtResource("1")
+asset_path = "res://assets/characters/don_espino_motion_study/don_espino_study.glb"

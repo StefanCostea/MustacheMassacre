@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+"""Launch Runware's stdio MCP or upload a local character render to its media store."""
+
+import argparse
+import base64
+import getpass
+import json
+import os
+import sys
+import tempfile
+import uuid
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+
+
+KEY_FILE = Path.home() / ".config/runware-mcp/api-key"
+SERVER = Path.home() / ".local/share/runware-mcp/node_modules/.bin/runware-mcp"
+
+
+def set_key():
+    if not sys.stdin.isatty():
+        raise SystemExit("Run --set-key in an interactive terminal.")
+    key = getpass.getpass("Runware API key (input hidden): ").strip()
+    if not key or any(c.isspace() for c in key):
+        raise SystemExit("Enter a single non-empty key.")
+    KEY_FILE.parent.mkdir(mode=0o700, parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(mode="w", dir=KEY_FILE.parent, delete=False) as tmp:
+        try:
+            tmp.write(key + "\n")
+            tmp.flush()
+            os.replace(tmp.name, KEY_FILE)
+        finally:
+            Path(tmp.name).unlink(missing_ok=True)
+    print("Key saved. Start a fresh Codex session to load it.")
+
+
+def upload_reference(path, key):
+    if not key:
+        raise SystemExit("Set the Runware key with ~/.local/bin/runware-mcp --set-key.")
+    data = path.read_bytes()
+    if data.startswith(b"\x89PNG\r\n\x1a\n"):
+        media_type = "image/png"
+    elif data.startswith(b"\xff\xd8\xff"):
+        media_type = "image/jpeg"
+    else:
+        raise SystemExit("Choose a PNG or JPEG render.")
+    task_id = str(uuid.uuid4())
+    task = {
+        "taskType": "mediaStorage",
+        "taskUUID": task_id,
+        "operation": "upload",
+        "media": f"data:{media_type};base64,{base64.b64encode(data).decode('ascii')}",
+    }
+    request = Request(
+        "https://api.runware.ai/v1",
+        data=json.dumps([task]).encode(),
+        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+    )
+    try:
+        with urlopen(request, timeout=120) as response:
+            result = json.load(response)
+    except HTTPError as error:
+        raise SystemExit(f"Runware rejected the upload (HTTP {error.code}, task {task_id}).")
+    except (URLError, TimeoutError):
+        raise SystemExit(f"Runware upload connection failed for task {task_id}.")
+    for item in result.get("data", []):
+        if item.get("taskUUID") == task_id and item.get("mediaUUID"):
+            print(uuid.UUID(item["mediaUUID"]))
+            return
+    raise SystemExit(f"Runware returned no media UUID for upload {task_id}.")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    actions = parser.add_mutually_exclusive_group()
+    actions.add_argument("--set-key", action="store_true", help="save or replace the key privately")
+    actions.add_argument("--upload-reference", type=Path, metavar="IMAGE",
+                         help="upload one PNG or JPEG and print its Runware media UUID")
+    args = parser.parse_args()
+    if args.set_key:
+        set_key()
+        return
+    key = os.environ.get("RUNWARE_API_KEY")
+    if not key and KEY_FILE.is_file():
+        key = KEY_FILE.read_text().strip()
+    if args.upload_reference:
+        upload_reference(args.upload_reference, key)
+        return
+    if key:
+        os.environ["RUNWARE_API_KEY"] = key
+    os.execv(SERVER, [str(SERVER)])
+
+
+if __name__ == "__main__":
+    main()

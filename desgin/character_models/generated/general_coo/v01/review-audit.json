@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 1.62,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 0.997,
+  "review_triangles": 36492,
+  "textures": {
+    "general_coo_color": [
+      2048,
+      2048
+    ],
+    "general_coo_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}

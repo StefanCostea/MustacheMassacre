@@ -1,0 +1,4 @@
+interface:
+  display_name: "Environment Artist"
+  short_description: "Build and review the playable Badlands scenery"
+  default_prompt: "Use $environment-artist to create or refine a Mustache Massacre environment prop and verify it in the playable arena."

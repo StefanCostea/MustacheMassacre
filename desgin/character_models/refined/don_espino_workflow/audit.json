@@ -1,0 +1,118 @@
+{
+  "source": "desgin/character_models/refined/DonEspino.glb",
+  "source_sha256": "6f0244b78e25b2397594ab5d080515b15e402e99fe416306f5a9459e22655606",
+  "source_triangles": 290497,
+  "clean_triangles": 290049,
+  "candidate_triangles": 59939,
+  "candidate_vertices": 26228,
+  "arm_vertices_adjusted": [
+    16020,
+    3056
+  ],
+  "height_metres": 3,
+  "pose_status": "Source pose preserved in clean_pose_test; neutral pose not yet accepted",
+  "rig_status": "Mixamo auto-rig succeeded on second marker placement; 25 original joints plus 6 authored moustache bones",
+  "animations": [],
+  "neutral_candidate_review": "REJECTED: stretched bridges at hip/hand and weapon",
+  "rejected_artifacts": "rejected/",
+  "faithful_candidate_fbx": "DonEspino_clean_pose_test.fbx",
+  "faithful_candidate_blend": "03_clean_pose_test.blend",
+  "faithful_static_glb": "DonEspino_clean_static.glb",
+  "source_texture_resolution": [
+    2048,
+    2048
+  ],
+  "mixamo_mcp": "Connected, character uploaded and mapped, four animation downloads completed",
+  "mixamo_fallback": "Marker placement and original-pose rig download completed in temporary browser fallback; four clips downloaded through MCP; temporary browser profile removed",
+  "topology": {
+    "DonEspino_Refined_Source": {
+      "vertices": 225068,
+      "triangles": 290497,
+      "boundary_edges": 138291,
+      "nonmanifold_edges": 138291,
+      "wire_edges": 0,
+      "zero_area_faces": 4
+    },
+    "DonEspino_Clean_Work": {
+      "vertices": 141253,
+      "triangles": 290049,
+      "boundary_edges": 644,
+      "nonmanifold_edges": 3465,
+      "wire_edges": 0,
+      "zero_area_faces": 0
+    },
+    "DonEspino_Clean_Pose_Test": {
+      "vertices": 26228,
+      "triangles": 59939,
+      "boundary_edges": 794,
+      "nonmanifold_edges": 3608,
+      "wire_edges": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "godot_review": {
+    "scene": "game/scenes/refined_character_review.tscn",
+    "import": "passed",
+    "render": "all five clips captured",
+    "skeletons": 1,
+    "animation_clips": [
+      "walk",
+      "idle",
+      "run_forward",
+      "shoot",
+      "stache_frenzy"
+    ],
+    "log": "build/character_workflow/godot_animated_review.log",
+    "status": "visual quality failed; main hero unchanged"
+  },
+  "polish_weights": {
+    "moustache": 888,
+    "hat_face": 9378,
+    "boots_legs": 3772,
+    "weapon_hand": 4521,
+    "radio": 836
+  },
+  "face_orientation_repaired": 8038,
+  "quality_status": "NOT APPROVED: visible arm/weapon and leg deformation in motion; needs neutral-pose reconstruction or retopology before gameplay replacement",
+  "animation_clips": {
+    "walk": 0.8,
+    "idle": 1.3333333333333333,
+    "run_forward": 0.5,
+    "shoot": 2.6666666666666665,
+    "stache_frenzy": 2.0
+  },
+  "root_motion": {
+    "walk": {
+      "max_horizontal_hip_drift_metres": 3.0174851417541504e-07,
+      "frames": [
+        1,
+        25
+      ]
+    },
+    "idle": {
+      "max_horizontal_hip_drift_metres": 1.5359765386647212e-08,
+      "frames": [
+        1,
+        41
+      ]
+    },
+    "run_forward": {
+      "max_horizontal_hip_drift_metres": 1.5359765386647212e-08,
+      "frames": [
+        1,
+        16
+      ]
+    },
+    "shoot": {
+      "max_horizontal_hip_drift_metres": 3.725290298461914e-08,
+      "frames": [
+        1,
+        81
+      ]
+    }
+  },
+  "pilot_glb": "DonEspino_animation_pilot_NOT_APPROVED.glb",
+  "gameplay_replacement": false,
+  "source_preserved": true,
+  "next_step": "Proper neutral-pose reconstruction and contact retopology, or a neutral generated body from the supplied new reference; repeat rigging/deformation review before gameplay integration"
+}

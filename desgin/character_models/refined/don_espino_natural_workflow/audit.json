@@ -1,0 +1,168 @@
+{
+  "source": "desgin/character_models/refined/DonEspinoNatural.glb",
+  "source_sha256": "4db8c2827897a544efb922f1b6b3e59038ae004725d7fd92dc80219bdea06919",
+  "topology": {
+    "DonEspino_Natural_Source": {
+      "vertices": 214660,
+      "triangles": 279291,
+      "boundary_edges": 132775,
+      "nonmanifold_edges": 132775
+    },
+    "DonEspino_Natural_Clean": {
+      "vertices": 28148,
+      "triangles": 59950,
+      "boundary_edges": 645,
+      "nonmanifold_edges": 2314
+    }
+  },
+  "height_metres": 3,
+  "textures": [
+    {
+      "name": "Image_0.005",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "Image_1.001",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    }
+  ],
+  "pose": "supplied symmetric A-pose; open empty hands; no geometric reposing",
+  "normals": "source winding preserved; no global recalculation",
+  "stage": "gameplay-test candidate; GLB and Godot validation passed",
+  "orientation_comparison": {
+    "opposed_nearest_source_faces": 1158,
+    "note": "nearest-surface comparison also counts thin-spine ambiguities; winding was never globally recalculated"
+  },
+  "mixamo": {
+    "marker_attempts": 1,
+    "result": "auto-rig succeeded",
+    "raw_skeleton_bones": 57,
+    "finger_chains_per_hand": [
+      "thumb",
+      "index",
+      "middle",
+      "ring"
+    ],
+    "notes": "The generated hand has four digits; actual skeleton count is recorded rather than the UI maximum of 65."
+  },
+  "polish": {
+    "moustache_vertices": 1226,
+    "moustache_bones": 6,
+    "body_weights": "Mixamo body weights preserved",
+    "weapon": "Separate existing baked revolver, 6424 triangles, rigid RightHand attachment",
+    "raw_bone_count": 63,
+    "grip_error_metres": 1.3657139822709083e-07
+  },
+  "body_triangles": 59950,
+  "weapon_triangles": 6424,
+  "floor_offsets": {
+    "idle": {
+      "minimum_before_m": -0.00046134309377521276,
+      "constant_lift_m": 0.008461343093775213
+    },
+    "walk": {
+      "minimum_before_m": -0.11083885282278061,
+      "constant_lift_m": 0.11883885282278062
+    },
+    "run_forward": {
+      "minimum_before_m": -0.008884171023964882,
+      "constant_lift_m": 0.016884171023964882
+    },
+    "shoot_source": {
+      "minimum_before_m": -0.002509564161300659,
+      "constant_lift_m": 0.01050956416130066
+    },
+    "run_backward": {
+      "minimum_before_m": -0.021308302879333496,
+      "constant_lift_m": 0.029308302879333496
+    },
+    "strafe_left": {
+      "minimum_before_m": -0.02539953775703907,
+      "constant_lift_m": 0.03339953775703907
+    },
+    "strafe_right": {
+      "minimum_before_m": -0.013282113708555698,
+      "constant_lift_m": 0.0212821137085557
+    },
+    "shoot": {
+      "minimum_before_m": -0.0004403970669955015,
+      "constant_lift_m": 0.008440397066995502
+    },
+    "reload": {
+      "minimum_before_m": -0.0004403970669955015,
+      "constant_lift_m": 0.008440397066995502
+    },
+    "dash": {
+      "minimum_before_m": -0.05085417628288269,
+      "constant_lift_m": 0.05885417628288269
+    },
+    "hurt": {
+      "minimum_before_m": -0.0004403970669955015,
+      "constant_lift_m": 0.008440397066995502
+    },
+    "death": {
+      "minimum_before_m": 0.00799985695630312,
+      "constant_lift_m": 1.430436968805071e-07
+    },
+    "cast": {
+      "minimum_before_m": -0.0004403970669955015,
+      "constant_lift_m": 0.008440397066995502
+    },
+    "ultimate": {
+      "minimum_before_m": -0.0004403970669955015,
+      "constant_lift_m": 0.008440397066995502
+    },
+    "stache_frenzy": {
+      "minimum_before_m": -0.0004403970669955015,
+      "constant_lift_m": 0.008440397066995502
+    }
+  },
+  "runtime_animation_count": 15,
+  "native_bones": 64,
+  "strafe_coordinate_check": {
+    "mixamo_id": "128280901",
+    "ui_description": "Strafe Left With An Aimed Pistol",
+    "unmodified_root_displacement_blender": [
+      1.418854832649231,
+      0,
+      0
+    ],
+    "runtime_role": "strafe_right: +X in the existing controller basis"
+  },
+  "godot": {
+    "clips": 15,
+    "skeletons": 1,
+    "gameplay_checks": {
+      "combat_natural": {
+        "passed": 53,
+        "failed": 0
+      },
+      "combat_default": {
+        "passed": 53,
+        "failed": 0
+      },
+      "exported_natural": {
+        "passed": 53,
+        "failed": 0
+      },
+      "exported_default": {
+        "passed": 53,
+        "failed": 0
+      }
+    },
+    "arena_visuals": "combat, Tumbleweed and High Noon captured with staged invulnerability/charge/enemy health"
+  },
+  "performance": {
+    "candidate": "build/natural_character_workflow/performance.json",
+    "default_same_display": "build/natural_character_workflow/performance_default_same_display.json",
+    "conclusion": "Both Xvfb captures slow at the same level; native-display 60 FPS not established."
+  }
+}

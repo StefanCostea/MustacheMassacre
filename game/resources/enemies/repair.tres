@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EnemySpec" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/enemy_spec.gd" id="1"]
+[resource]
+script = ExtResource("1")
+health = 36.0
+speed = 2.5
+attack_range = 5.2
+damage = 9.0
+warning_seconds = 0.75
+recovery_seconds = 1.65

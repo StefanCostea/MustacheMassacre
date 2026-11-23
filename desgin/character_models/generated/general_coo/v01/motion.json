@@ -1,0 +1,17 @@
+{
+  "frames": {
+    "idle": 48,
+    "move": 24,
+    "backstep": 25,
+    "strafe_left": 25,
+    "strafe_right": 25,
+    "fire": 10,
+    "vent": 30,
+    "hop": 21,
+    "cast": 29,
+    "hurt": 10,
+    "death": 37
+  },
+  "bones": 15,
+  "source": "Authored in Blender 5.3. Mixamo was signed out."
+}

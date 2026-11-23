@@ -1,0 +1,33 @@
+{
+  "mode": "built-in image_gen",
+  "hero": {
+    "source": "/home/stefancostea/.codex/generated_images/01a1cc60-f362-7161-a4f6-241e2e6205c2/exec-14f077f7-6c4d-4b3d-bd65-8fcdb8a8656b.png",
+    "output": "/home/stefancostea/Documents/MustacheMassacre/desgin/renders/don_espino/concepts/01_character_hero.png"
+  },
+  "scenes": [
+    {
+      "name": "02_ricochet_rodeo",
+      "source": "/home/stefancostea/.codex/generated_images/01a1cc60-f362-7161-a4f6-241e2e6205c2/exec-2150e7da-d00b-4eb1-8752-cc273da7730d.png",
+      "output": "/home/stefancostea/Documents/MustacheMassacre/desgin/renders/don_espino/concepts/02_ricochet_rodeo.png",
+      "mode": "built-in image_gen"
+    },
+    {
+      "name": "03_prickly_situation",
+      "source": "/home/stefancostea/.codex/generated_images/01a1cc60-f362-7161-a4f6-241e2e6205c2/exec-6409172c-6735-48e0-acc1-2f1ad1a16f4e.png",
+      "output": "/home/stefancostea/Documents/MustacheMassacre/desgin/renders/don_espino/concepts/03_prickly_situation.png",
+      "mode": "built-in image_gen"
+    },
+    {
+      "name": "04_tumbleweed_of_doom",
+      "source": "/home/stefancostea/.codex/generated_images/01a1cc60-f362-7161-a4f6-241e2e6205c2/exec-beb96699-878a-446f-8db9-ed96fee729be.png",
+      "output": "/home/stefancostea/Documents/MustacheMassacre/desgin/renders/don_espino/concepts/04_tumbleweed_of_doom.png",
+      "mode": "built-in image_gen"
+    },
+    {
+      "name": "05_high_noon_frenzy",
+      "source": "/home/stefancostea/.codex/generated_images/01a1cc60-f362-7161-a4f6-241e2e6205c2/exec-0b8c2d07-daf2-4b02-ac32-da41b83f373f.png",
+      "output": "/home/stefancostea/Documents/MustacheMassacre/desgin/renders/don_espino/concepts/05_high_noon_frenzy.png",
+      "mode": "built-in image_gen"
+    }
+  ]
+}

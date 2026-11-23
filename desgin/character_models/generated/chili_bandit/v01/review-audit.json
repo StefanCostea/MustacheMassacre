@@ -1,0 +1,17 @@
+{
+  "blender": "5.3.0",
+  "height_m": 1.72,
+  "front_in_godot": "+Z",
+  "body_surface_area_ratio": 1.0028,
+  "review_triangles": 24417,
+  "textures": {
+    "chili_bandit_color": [
+      2048,
+      2048
+    ],
+    "chili_bandit_metal_rough": [
+      2048,
+      2048
+    ]
+  }
+}
